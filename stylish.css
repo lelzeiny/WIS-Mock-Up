@@ -22,6 +22,77 @@ body{
 	background-color: #6daa69;
 	z-index: 0;
 	text-align: center;
-	margin-left: 50px;
+	margin-left: 10%;
+	line-height: 120px;
+}
+.slideshow{
+	z-index: 1; 
+	width: 660px;
+	height: 320px;
+	background-color:antiquewhite;
+	margin: auto;
+}
+.arrowpic{
+	z-index: 0;
+	border-radius: 30px;
+	width: 60px;
+	height: 60px;
+	background-color: grey;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	top: -200px;
+}
+#leftpic{
+	right: 330px;
+}
+#rightpic{
+	left: 330px;
+	margin-top: -80px;
+}
+th {
+	border: 35px solid transparent;
+}
+#periods{
 	
+	background-color: none;
+	width: 785px;
+	height: 300px;
+	margin: auto;
+	color: white;
+	text-align:center;
+	font-size: 22px;
+	margin-top: -80px;
+}
+.symbol{
+	width: 50px;
+	height: 50px;
+	background-color: none;
+}
+.creations{
+	position: relative;
+	left: 54px;
+	border: 7px solid #6daa69;
+	border-radius: 40px;
+	
+}
+#arabic{
+	background-color: #6daa69;
+	width: 175px;
+	height: 65px;
+	float: left;
+}
+#quran{
+	background-color: #6daa69;
+	width: 175px;
+	height: 65px;
+	float: left;
+}
+#istudies{
+	background-color: #6daa69;
+	font-size: 19px;
+	width: 175px;
+	height: 65px;
+	float: right;
+	line-height: 40px;
 }
