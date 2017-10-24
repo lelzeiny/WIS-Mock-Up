@@ -15,17 +15,24 @@ body{
 	font-size: 25px;
 }
 ul#list-nav {
-	margin:20px;
-	padding:20;
-	list-style:none;
-	width:525px;
+	margin: 40px;
+	margin-left: 160px;
+	padding: 20px;
+	list-style: none;
+	width: 700px;
 	text-decoration: none;
-	float: left;
-	text-align: center;
+	float: right;
+	font-size: 20px;
 }
 ul#list-nav li{
 	display: inline;
-	border-left: 2px double white;
+	border-right: 2px single white;
+	padding: 3px;
+}
+ul#list-nav li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
 }
 ul#list-nav li:hover{
 	background-color: orange;
