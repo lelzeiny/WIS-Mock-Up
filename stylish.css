@@ -44,6 +44,8 @@ body{
 	position: relative;
 	margin: auto;
 	top: -200px;
+	line-height: 0;
+	font-size: 20px;
 }
 .arrowpic:hover{
 	background-color: #6daa69;
