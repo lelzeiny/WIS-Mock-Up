@@ -16,12 +16,12 @@ body{
 }
 ul#list-nav {
 	margin: 40px;
-	margin-right: 20px;
+	margin-left: 80px;
 	padding: 20px;
 	list-style: none;
 	width: 700px;
 	text-decoration: none;
-	float: right;
+	float: left;
 	font-size: 20px;
 }
 ul#list-nav li{
@@ -35,7 +35,7 @@ ul#list-nav li a{
 	text-align: center;
 }
 ul#list-nav li:hover{
-	background-color: #51944c;
+	background-color: #3e783a;
 	color: #e0e0e0;
 }
 #logo{
