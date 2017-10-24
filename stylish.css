@@ -37,11 +37,18 @@ body{
 	border-radius: 30px;
 	width: 60px;
 	height: 60px;
-	background-color: grey;
+	background-color: white;
+	color: #6daa69;
+	border: 3px solid #6daa69;
 	text-align: center;
 	position: relative;
 	margin: auto;
 	top: -200px;
+}
+.arrowpic:hover{
+	background-color: #6daa69;
+	color: white;
+	border: 3px solid white;
 }
 #leftpic{
 	right: 330px;
