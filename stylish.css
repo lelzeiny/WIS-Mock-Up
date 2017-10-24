@@ -34,7 +34,7 @@ body{
 }
 .arrowpic{
 	z-index: 0;
-	border-radius: 30px;
+	border-radius: 35px;
 	width: 60px;
 	height: 60px;
 	background-color: white;
@@ -55,7 +55,7 @@ body{
 }
 #rightpic{
 	left: 330px;
-	margin-top: -80px;
+	margin-top: -55px;
 }
 th {
 	border: 35px solid transparent;
