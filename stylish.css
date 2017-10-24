@@ -16,7 +16,7 @@ body{
 }
 ul#list-nav {
 	margin: 40px;
-	margin-left: 160px;
+	margin-right: 60%;
 	padding: 20px;
 	list-style: none;
 	width: 700px;
@@ -26,7 +26,7 @@ ul#list-nav {
 }
 ul#list-nav li{
 	display: inline;
-	border-right: 2px single white;
+	border-right: 2px solid white;
 	padding: 3px;
 }
 ul#list-nav li a{
@@ -35,8 +35,8 @@ ul#list-nav li a{
 	text-align: center;
 }
 ul#list-nav li:hover{
-	background-color: orange;
-	color: grey;
+	background-color: #51944c;
+	color: #e0e0e0;
 }
 #logo{
 	position: relative;
