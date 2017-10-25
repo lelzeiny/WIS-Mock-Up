@@ -99,7 +99,6 @@ th {
 	border: 35px solid transparent;
 }
 #periods{
-	
 	background-color: none;
 	width: 785px;
 	height: 300px;
@@ -107,6 +106,10 @@ th {
 	color: white;
 	text-align:center;
 	font-size: 22px;
+}
+#periods p{
+	font-size: 16px;
+	color: black;
 }
 .symbol{
 	width: 50px;
