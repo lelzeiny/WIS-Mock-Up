@@ -56,6 +56,15 @@ ul#list-nav li:hover{
 	background-color:antiquewhite;
 	margin: auto;
 }
+description{
+	z-index: 0;
+	width: 330px;
+	height:220px;
+	background-color: #666666;
+	color: white;
+	opacity: 0.5;
+	padding: 10px;
+}
 .arrowpic{
 	z-index: 0;
 	border-radius: 35px;
