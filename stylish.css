@@ -55,6 +55,7 @@ ul#list-nav li:hover{
 	height: 320px;
 	background-color:antiquewhite;
 	margin: auto;
+	position: relative;
 }
 #description{
 	z-index: 0;
@@ -62,7 +63,7 @@ ul#list-nav li:hover{
 	height:220px;
 	background-color: #666666;
 	color: white;
-	opacity: 0.3;
+	opacity: 0.7;
 	padding: 10px;
 }
 #arrowcontain{
@@ -70,6 +71,8 @@ ul#list-nav li:hover{
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+	height: 100%;
+	width: 100%;
 }
 .arrowpic{
 	z-index: 0;
@@ -90,13 +93,6 @@ ul#list-nav li:hover{
 	background-color: #6daa69;
 	color: white;
 	border: 3px solid white;
-}
-#leftpic{
-	right: 330px;
-}
-#rightpic{
-	left: 330px;
-	margin-top: -55px;
 }
 th {
 	border: 35px solid transparent;
