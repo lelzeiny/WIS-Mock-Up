@@ -145,10 +145,11 @@ th {
 }
 #Announcements{
 	width: 600px;
-	height: 400px;
+	height: 420px;
 	margin: auto;
 	padding: 10px;
-	border: 2px solid green;
+	border: 3px solid #51894d;
+	border-radius: 15px;
 }
 #announcetitle{
 	width:600px;
@@ -156,13 +157,13 @@ th {
 	background-color: #6daa69;
 	color:white;
 	border-radius:3px;
-	text-align: right;
+	text-align: left;
 	font-size: 14px;
 }
 .announce{
-	width: 600px;
+	width: 550px;
 	height:100px;
 	margin: 15px;
 	padding: 5px;
-	border: 1px solid pink;
+	border: 1px solid grey;
 }
