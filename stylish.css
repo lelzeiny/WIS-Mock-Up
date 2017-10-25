@@ -65,17 +65,20 @@ ul#list-nav li:hover{
 	color: white;
 	opacity: 0.7;
 	padding: 10px;
+	margin-top:-320px;
+	text-align: right;
 }
 #arrowcontain{
+	z-index: 0;
 	position: absolute;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
 	height: 100%;
 	width: 100%;
+	margin-top:-320px;
 }
 .arrowpic{
-	z-index: 0;
 	border-radius: 35px;
 	width: 60px;
 	height: 60px;
@@ -83,9 +86,6 @@ ul#list-nav li:hover{
 	color: #6daa69;
 	border: 3px solid #6daa69;
 	text-align: center;
-	position: relative;
-	margin: auto;
-	top: -200px;
 	line-height: 0;
 	font-size: 20px;
 }
@@ -106,7 +106,6 @@ th {
 	color: white;
 	text-align:center;
 	font-size: 22px;
-	margin-top: -80px;
 }
 .symbol{
 	width: 50px;
@@ -118,7 +117,6 @@ th {
 	left: 54px;
 	border: 7px solid #6daa69;
 	border-radius: 40px;
-	
 }
 #arabic{
 	background-color: #6daa69;
