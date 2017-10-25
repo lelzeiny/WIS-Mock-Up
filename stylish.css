@@ -8,7 +8,7 @@ body{
 	width: 100%;
 	height: 100px;
 	padding: none;
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	color: white;
 	font-family: Bitter, serif;
@@ -128,4 +128,19 @@ th {
 	height: 65px;
 	float: right;
 	line-height: 40px;
+}
+.Announcements{
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	float: left;
+	padding: 10px;
+	border: 2px solid green;
+}
+.Announcements div{
+	width: 400px;
+	height:100px;
+	margin: 15px;
+	padding: 5px;
+	broder: 1px solid pink;
 }
