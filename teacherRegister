@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WIS Mock Up</title>
+<link rel="stylesheet" type="text/css" href="stylish.css">
+<!-- Font for navigation-->
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+</head>
+
+<body>
+<div id="header">
+	<ul id="list-nav">
+  		<li><a href="WISmock.html">Home</a></li>
+		<li><a href="#">Registration</a></li>
+		<li><a href="#">Curriculum</a></li>
+		<li><a href="#">Calendar</a></li>
+		<li><a href="#">Extracurriculurs</a></li></ul>
+</div>
+<div id="logo">
+	<h1>WIS</h1>
+</div>
