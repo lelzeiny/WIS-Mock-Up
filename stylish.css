@@ -167,3 +167,23 @@ th {
 	padding: 5px;
 	border: 1px solid grey;
 }
+
+/* Code for the Curriculum Page*/
+#ArabicSyllabus{
+	width: 550;
+	margin: center;
+	color: #6daa69;
+}
+#level{
+	width: 25%;
+	height: 30px;
+	border: 2px solid #6daa69;
+	border-radius: 5px;
+	margin: 6px;
+	padding: 3px;
+}
+#level a{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #6daa69;
+}
