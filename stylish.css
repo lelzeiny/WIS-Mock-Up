@@ -186,16 +186,17 @@ th {
 
 /* Code for the Curriculum Page*/
 #ArabicSyllabus{
-	width: 550;
+	width: 550px;
 	margin: auto;
 	color: #6daa69;
 }
 .level{
-	width: 25%;
+	width: 50%;
 	height: 30px;
 	border: 2px solid #6daa69;
 	border-radius: 5px;
 	margin: 6px;
+	margin-left: 30px;
 	padding: 3px;
 }
 .level a{
