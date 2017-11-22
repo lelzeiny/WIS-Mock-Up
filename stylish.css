@@ -36,16 +36,23 @@ ul#list-nav li a{
 	text-align: center;
 }
 ul#list-nav li:hover{
-	background-color: #3e783a;
+	background-color: #51894d;
 	color: #e0e0e0;
 }
 ul#list-nav ul{
+	z-index: 5;
 	display: none;
 	position: absolute;
-	top: 100%;
+	padding: 5px;
+	margin-left: 120px;
+	top: 85%;
+	background-color: #3e783a;
+	font-size: 15px;
 }
 ul#list-nav ul li{
 	float:none;
+	display: block;
+	border: 0px;
 }
 ul#list-nav li:hover > ul{
 	display: block;
