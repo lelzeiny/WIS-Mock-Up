@@ -1,0 +1,27 @@
+!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WIS Mock Up</title>
+<link rel="stylesheet" type="text/css" href="stylish.css">
+<!-- Font for navigation-->
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+</head>
+
+<body>
+<div id="header">
+	<ul id="list-nav">
+  		<li><a href="WISmock.html">Home</a></li>
+		<li><a href="#">Registration</a>
+			<ul>
+				<li><a href="#">Teacher</a></li>
+				<li><a href="#">Student</a></li>
+				<li><a href="#">Volunteer</a></li>
+			</ul></li>
+		<li><a href="curriculum.html">Curriculum</a></li>
+		<li><a href="https://support.google.com/calendar/answer/41207?hl=en">Calendar</a></li>
+		<li><a href="extracurriculurs.html">Extracurriculurs</a></li></ul>
+</div>
+<div id="logo">
+	<h1>WIS</h1>
+</div>
