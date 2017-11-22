@@ -36,7 +36,7 @@ ul#list-nav li a{
 	text-align: center;
 }
 ul#list-nav li:hover{
-	background-color: #51894d;
+	background-color: #3e783a;
 	color: #e0e0e0;
 }
 ul#list-nav ul{
@@ -56,6 +56,7 @@ ul#list-nav ul li{
 }
 ul#list-nav li:hover > ul{
 	display: block;
+	background-color: #51894d;
 }
 #list-nav > ul::after{
 	content:"";
