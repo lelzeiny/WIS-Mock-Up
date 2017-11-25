@@ -213,6 +213,12 @@ th {
 	color: #6daa69;
 }
 
+/* Code for the Calendar Page*/
 .view-cap, .view-container-border {
     background-color: salmon;
+}
+iframe{
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid #51894d;
 }
