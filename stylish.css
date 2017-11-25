@@ -212,3 +212,7 @@ th {
 	font-weight: bold;
 	color: #6daa69;
 }
+
+.view-cap, .view-container-border {
+    background-color: salmon;
+}
