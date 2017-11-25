@@ -192,15 +192,18 @@ th {
 	border: 1px solid grey;
 }
 /* Code for the mainRegister Page*/
-MRcontainer{
-	display-content: inline;
+#MRcontainer{
+	display: inline;
 	margin: auto;
 }
-MRsidebar{
+#MRsidebar{
 	float: left;
 }
-MRmainbox{
+#MRmainbox{
 	float: right;
+}
+#MRmainbox h1{
+	text-align: center;
 }
 
 /* Code for the Curriculum Page*/
