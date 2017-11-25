@@ -191,6 +191,17 @@ th {
 	padding: 5px;
 	border: 1px solid grey;
 }
+/* Code for the mainRegister Page*/
+MRcontainer{
+	display-content: inline;
+	margin: auto;
+}
+MRsidebar{
+	float: left;
+}
+MRmainbox{
+	float: right;
+}
 
 /* Code for the Curriculum Page*/
 #ArabicSyllabus{
