@@ -192,12 +192,18 @@ th {
 	border: 1px solid grey;
 }
 /* Code for the mainRegister Page*/
-#MRcontainer{
+.MRcontainer{
 	display: inline;
 	margin: auto;
 }
 #MRsidebar{
 	float: left;
+}
+#MRsidebar ul li{
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid #51945d;
+	border-radius: 4px;
 }
 #MRmainbox{
 	float: right;
