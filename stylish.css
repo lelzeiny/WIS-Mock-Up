@@ -84,11 +84,11 @@ ul#list-nav li:hover > ul{
 }
 #description{
 	z-index: 1;
-	width: 330px;
+	width: 290px;
 	height:220px;
-	background-color: #666666;
+	background-color: #6daa69;
 	color: white;
-	opacity: 0.7;
+	opacity: 0.9;
 	padding: 10px;
 	margin-top:-320px;
 	text-align: right;
