@@ -226,13 +226,28 @@ th {
 		margin-top: -60%;
 	}
 	#periods{
-		width:600;
+		width:100%;
 		margin-top: 200px;
 	}
+	table{
+		margin: auto;
+	}
 	#periods th{
-		margin:3px;
-		border: 10px;
-		width: 200px;
+		border: 8px solid transparent;
+		width: 170px;
+	}
+	#Announcements{
+		width: 90%;
+	}
+	#announcetitle{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.announce{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 10px;
+		height: 80px;
 	}
 	body{
 		font-size: 9px;
