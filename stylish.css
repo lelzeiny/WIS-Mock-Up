@@ -278,8 +278,17 @@ th {
 }
 
 /* Code for the Curriculum Page*/
+h1{
+	color: black;
+	text-align: center;
+}
+h3{
+	color: black;
+	text-align: center;
+	font-weight: normal;
+}
 #ArabicSyllabus{
-	width: 550px;
+	width: 650px;
 	margin: auto;
 	color: #6daa69;
 }
@@ -291,6 +300,10 @@ th {
 	margin: 6px;
 	margin-left: 30px;
 	padding: 3px;
+}
+.level:hover{
+	background-color:#6daa69;
+	color: white;
 }
 .level a{
 	text-decoration: none;
