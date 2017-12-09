@@ -2,6 +2,7 @@
 /* CSS Document */
 body{
 	font-family: Bitter, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
 }
 #header{
 	z-index:4;
@@ -250,7 +251,7 @@ th {
 		height: 80px;
 	}
 	body{
-		font-size: 9px;
+		font-size: 10px;
 		background-color: red;
 		margin:0px;
 	}
@@ -284,10 +285,7 @@ th {
 	font-weight: normal;
 	line-height: 30px;
 }
-.currictext h3{
-	color: #555;
-}
-#ArabicSyllabus{
+#CURRcontainer{
 	width: 650px;
 	margin: auto;
 	color: #6daa69;
