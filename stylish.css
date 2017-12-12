@@ -272,13 +272,16 @@ th {
 	float: left;
 }
 #MRsidebar ul li{
-	text-decoration: none;
 	padding: 5px;
 	border: 1px solid #51945d;
 	border-radius: 4px;
 }
+#MRsidebar ul li a{
+	text-decoration: none;
+}
 #MRmainbox{
 	float: right;
+	margin-left: 300px;
 }
 #MRmainbox h1{
 	text-align: center;
@@ -316,7 +319,7 @@ th {
 
 /* Code for the Calendar Page*/
 .view-cap, .view-container-border {
-    background-color: salmon;
+    margin: auto;
 }
 iframe{
 	margin: auto;
