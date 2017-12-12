@@ -265,11 +265,14 @@ th {
 }
 /* Code for the mainRegister Page*/
 .MRcontainer{
-	display: inline;
+	display: flex;
 	margin: auto;
+	width: 680px;
+	position: relative;
 }
 #MRsidebar{
 	float: left;
+	width: 160px;
 }
 #internalRegistration{
 	position: absolute;
@@ -287,13 +290,16 @@ th {
 	border-radius: 4px;
 	background-color: white;
 }
+#internalRegistration li:hover{
+	background-color: #a8dba4;
+}
 #internalRegistration li a{
 	text-decoration: none;
 	color: #51894d;
 }
 #MRmainbox{
 	float: right;
-	margin-left: 300px;
+	margin-left: 60px;
 }
 #MRmainbox h1{
 	text-align: center;
