@@ -230,6 +230,7 @@ th {
 }
 #MRmainbox{
 	float: right;
+	margin: 10px;
 	margin-left: 60px;
 }
 #MRmainbox h1{
