@@ -244,7 +244,7 @@ th {
 	font-weight: normal;
 	line-height: 30px;
 }
-#CURcontainer{
+.CURcontainer{
 	width: 650px;
 	margin: auto;
 	color: #6daa69;
