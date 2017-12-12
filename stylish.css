@@ -194,75 +194,6 @@ th {
 	border: 1px solid grey;
 }
 
-@media only screen and (max-width:800px){
-	#logo{
-		float: right;
-		background-color: white;
-		width: 70px;
-		height: 70px;
-		line-height: 50px;
-	}
-	#header{
-		margin-top: -10px;
-		height: 70px;
-	}
-	ul#list-nav{
-		margin: 10px;
-		font-size: 14px;
-		margin-left: -130px;
-	}
-	ul#list-nav li:hover > ul{
-		display: none;
-	}
-	#list-nav > ul::after{
-		display: none;
-	}
-	.slideshow{
-		width: 100%;
-		height: auto;
-	}
-	.slideshow img{
-		width: 100%;
-		height: auto;
-	}
-	#description{
-		width: 230px;
-		height: 150px;
-	}
-	#arrowcontain{
-		margin-top: -60%;
-	}
-	#periods{
-		width:100%;
-		margin-top: 200px;
-	}
-	table{
-		margin: auto;
-	}
-	#periods th{
-		border: 8px solid transparent;
-		width: 170px;
-	}
-	#Announcements{
-		width: 90%;
-	}
-	#announcetitle{
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	.announce{
-		width: 95%;
-		margin: auto;
-		margin-bottom: 10px;
-		height: 80px;
-	}
-	body{
-		font-size: 10px;
-		background-color: red;
-		margin:0px;
-	}
-	
-}
 /* Code for the mainRegister Page*/
 .MRcontainer{
 	display: flex;
@@ -343,4 +274,77 @@ iframe{
 	margin: auto;
 	margin-top: 20px;
 	border: 1px solid #51894d;
+}
+@media only screen and (max-width:800px){
+	#logo{
+		float: right;
+		background-color: white;
+		width: 70px;
+		height: 70px;
+		line-height: 50px;
+	}
+	#header{
+		margin-top: -10px;
+		height: 70px;
+	}
+	ul#list-nav{
+		margin: 10px;
+		font-size: 14px;
+		margin-left: -130px;
+	}
+	ul#list-nav li:hover > ul{
+		display: none;
+	}
+	#list-nav > ul::after{
+		display: none;
+	}
+	.slideshow{
+		width: 100%;
+		height: auto;
+	}
+	.slideshow img{
+		width: 100%;
+		height: auto;
+	}
+	#description{
+		width: 230px;
+		height: 150px;
+	}
+	#arrowcontain{
+		margin-top: -60%;
+	}
+	#periods{
+		width:100%;
+		margin-top: 200px;
+	}
+	table{
+		margin: auto;
+	}
+	#periods th{
+		border: 8px solid transparent;
+		width: 170px;
+	}
+	#Announcements{
+		width: 90%;
+	}
+	#announcetitle{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.announce{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 10px;
+		height: 80px;
+	}
+	/*Code for Minor Pages*/
+	.MRcontainer{
+		width: 100%;
+	}
+	body{
+		font-size: 11.5px;
+		background-color: red;
+		margin:0px;
+	}
+	
 }
