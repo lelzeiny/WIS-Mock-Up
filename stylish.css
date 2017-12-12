@@ -211,6 +211,12 @@ th {
 		font-size: 14px;
 		margin-left: -130px;
 	}
+	ul#list-nav li:hover > ul{
+		display: none;
+	}
+	#list-nav > ul::after{
+		display: none;
+	}
 	.slideshow{
 		width: 100%;
 		height: auto;
