@@ -244,7 +244,7 @@ th {
 	font-weight: normal;
 	line-height: 30px;
 }
-#CURRcontainer{
+#CURcontainer{
 	width: 650px;
 	margin: auto;
 	color: #6daa69;
@@ -342,6 +342,10 @@ iframe{
 	/*Code for Minor Pages*/
 	.MRcontainer{
 		width: 100%;
+	}
+	#CURcontainer{
+		width: 100%;
+		margin-top: 100px;
 	}
 	body{
 		font-size: 11.5px;
