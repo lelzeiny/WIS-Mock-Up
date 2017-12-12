@@ -345,7 +345,9 @@ iframe{
 	}
 	#CURcontainer{
 		width: 100%;
-		margin-top: 100px;
+		position:absolute;
+		display: block;
+		margin-top: 80px;
 	}
 	body{
 		font-size: 11.5px;
