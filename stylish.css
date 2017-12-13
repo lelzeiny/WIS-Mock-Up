@@ -343,7 +343,7 @@ iframe{
 	.MRcontainer{
 		width: 100%;
 	}
-	#CURcontainer{
+	.CURcontainer{
 		width: 100%;
 		position:absolute;
 		display: block;
