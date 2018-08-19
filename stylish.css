@@ -55,6 +55,7 @@ ul#list-nav ul li{
 	float:none;
 	display: block;
 	border: 0px;
+	transition: 0.6s ease;
 }
 ul#list-nav li:hover > ul{
 	display: block;
@@ -115,11 +116,12 @@ ul#list-nav li:hover > ul{
 	text-align: center;
 	line-height: 0;
 	font-size: 20px;
+	transition: 0.6s ease;
 }
 .arrowpic:hover{
 	background-color: #6daa69;
 	color: white;
-	border: 3px solid white;
+	border: none;
 }
 th {
 	border: 35px solid transparent;
