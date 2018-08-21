@@ -121,7 +121,7 @@ ul#list-nav li:hover > ul{
 .arrowpic:hover{
 	background-color: #6daa69;
 	color: white;
-	border: none;
+	border: 3px solid #6daa69;
 }
 th {
 	border: 35px solid transparent;
