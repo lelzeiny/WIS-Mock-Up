@@ -123,6 +123,19 @@ ul#list-nav li:hover > ul{
 	color: white;
 	border: 3px solid #6daa69;
 }
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
 th {
 	border: 35px solid transparent;
 }
