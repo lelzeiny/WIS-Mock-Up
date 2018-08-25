@@ -34,10 +34,10 @@
 	<img src="http://www.malatyasurmanset.com/wp-content/uploads/2016/03/DSC_0104.jpg" width="660" height="320" alt="Classroom Pic4"/>
 	<img src="http://laurensinstitute.org/wp-content/uploads/2010/09/donation-X660.jpg" width="660" height="320" alt="Classroom Pic5"/>
 	<div id="arrowcontain">
-		<div class="arrowpic" id="leftpic">
+		<div class="arrowpic" id="leftpic" onclick="plusSlides(-1)">
 			<h1>&#10094;</h1>
 		</div>
-		<div class="arrowpic" id="rightpic">
+		<div class="arrowpic" id="rightpic" onclick="plusSlides(1)">
 			<h1>&#10095;</h1>
 		</div>
 	</div>
@@ -46,9 +46,11 @@
 	</div>-->
 </div>
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot" onclick="currentSlide(1)></span> 
+  <span class="dot" onclick="currentSlide(2)></span> 
+  <span class="dot" onclick="currentSlide(3)></span> 
+  <span class="dot" onclick="currentSlide(4)></span> 
+  <span class="dot" onclick="currentSlide(5)></span> 
 </div>
 <div id="periods">
 <table>
@@ -103,6 +105,12 @@ function showSlides() {
     var i;
     var slides = document.getElementsByClassName("slider img");
     var dots = document.getElementsByClassName("dot");
+    function plusSlides(n) {
+	showSlides(slideIndex += n);
+    }
+    function currentSlide(n) {
+	showSlides(slideIndex = n);
+    }
     for (i = 0; i < slides.length; i++) {
        slides[i].style.display = "none";  
     }
