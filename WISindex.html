@@ -110,6 +110,7 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 function showSlides(n) {
+    clearTimeout(slideIndex);
     var i;
     var slides = document.getElementsByClassName("slides"); 
     var dots = document.getElementsByClassName("dot");
@@ -117,7 +118,7 @@ function showSlides(n) {
        slides[i].style.display = "none";  
     }
     slideIndex++;
-    if (n > slides.length) {slideIndex = 0}
+    if (n > slides.length-1) {slideIndex = 0}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
