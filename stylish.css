@@ -86,6 +86,7 @@ ul#list-nav li:hover > ul{
 	margin: 0 auto;
 	position: relative;
 	box-shadow: 0px 1px 5px #999999;
+	effect: "series2";
 }
 #slider img{
 	position: absolute;
