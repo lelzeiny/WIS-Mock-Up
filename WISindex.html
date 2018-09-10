@@ -34,10 +34,10 @@
 	<img src="http://www.malatyasurmanset.com/wp-content/uploads/2016/03/DSC_0104.jpg" width="660" height="320" class="slides" alt="Classroom Pic4"/>
 	<img src="http://laurensinstitute.org/wp-content/uploads/2010/09/donation-X660.jpg" width="660" height="320" class="slides" alt="Classroom Pic5"/>
 	<div id="arrowcontain">
-		<div class="arrowpic" id="leftpic" onclick="plusSlides(-1)">
+		<div class="arrowpic" id="leftpic" onclick="changeSlide(-1)">
 			<h1>&#10094;</h1>
 		</div>
-		<div class="arrowpic" id="rightpic" onclick="plusSlides(1)">
+		<div class="arrowpic" id="rightpic" onclick="changeSlide(1)">
 			<h1>&#10095;</h1>
 		</div>
 	</div>
@@ -98,33 +98,47 @@
 		</div>
 	</div>
 <script>
-var slideIndex = 0;
+var slideIndex = 1;
 showSlides(slideIndex);
+let timeout;	
 
-function plusSlides(n) {
-    slideIndex += n;
-    if (n < 0) {slideIndex = slides.length}
-    showSlides(slideIndex);
+const cycleSlide = () => {
+	console.log(">>>");
+	plusSlides(1);
+    timeout = setTimeout(cycleSlide, 5000);
+};
+
+function initTimeout() {
+	timeout = setTimeout(cycleSlide, 5000);
+}
+initTimeout();
+	
+function changeSlide(n) {
+    clearTimeout(timeout);
+    initTimeout();
+    plusSlide(n);
+}
+function plusSlide(n) {
+  showSlides(slideIndex += n);
 }
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+  showSlides(slideIndex = n);
 }
+	
 function showSlides(n) {
-    clearTimeout(slideIndex);
-    var i;
-    var slides = document.getElementsByClassName("slides"); 
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (n > slides.length-1) {slideIndex = 0}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 3500);
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
 }
 </script>
 </body>
